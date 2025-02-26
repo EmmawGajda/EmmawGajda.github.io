@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FEFADB;
+}
+h1 {
+    color: black; 
+    background-color: #F2A6A6;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    font-family: "Special Elite", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h2 {  
+    color: black;
+    background-color: #ffff;
+    padding: 1.5rem;
+}
+p {
+    color: black;
+    background-color: #F2A6A6;
+    margin: 1.5rem;
+    line-height: 1.5rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    font-family: "Courier New", Courier, monospace
+}
+img {float: right;
+     border: 2px #ffffff solid; 
+     margin: .65rem;
+     max-width: 100%;
+}
+a:link { 
+    color: deeppink
+}
+a:visited {
+    color: darkblue
+}
+a:hover {
+    color: red
+}
+a:active { 
+    color: lightblue
+}
