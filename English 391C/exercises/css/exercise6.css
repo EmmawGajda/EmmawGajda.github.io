@@ -1,0 +1,70 @@
+.topnav {
+    background-color: grey;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float:left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1rem;
+    text-decoration:none;
+    font-size: 12;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .topnav a:hover {
+    background-color: pink;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: white;
+    color: black;
+  }
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: whitesmoke ;
+}
+h1 {
+    color: black; 
+    background-color: whitesmoke;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h2 {  
+    color: black;
+    background-color: whitesmoke;
+    padding: 1.5rem;
+}
+p {
+    color: black;
+    background-color: whitesmoke;
+    margin: 1.5rem;
+    line-height: 1.5rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+img {float: left;
+     border: 2px #ffffff dotted; 
+     margin: .65rem;
+     max-width: 100%;
+}
+a:link { 
+    color: black
+}
+a:visited {
+    color: pink
+}
+a:hover {
+    color: palevioletred
+}
+a:active { 
+    color: rebeccapurple
+}
