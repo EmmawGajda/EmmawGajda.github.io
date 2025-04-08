@@ -1,0 +1,69 @@
+
+h1 {
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 12px;
+    margin: 0px;
+}
+h2.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: black;
+    }
+h2.logo a:hover {
+color: pink;
+}
+h2.logo a:active {
+color: pink;
+}
+
+main p {
+    background-color: white;
+    padding: 1.3rem;
+    margin: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 25px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+nav li {
+    list-style-type: none;
+    background-color: black;
+    margin: 1rem;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+}
+nav a:hover {
+    color: pink;
+    background-color: black;
+}
+nav a:active { 
+    color: pink;
+}
+
+
+footer { 
+    text-align: center;
+    background-color: black;
+    color: grey;
+    padding: 2rem;
+}
