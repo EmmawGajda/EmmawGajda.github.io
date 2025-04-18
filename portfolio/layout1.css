@@ -80,21 +80,32 @@ header p {
 /* MAIN SECTION */
 
 main {
-    background-color: #ecf0f3;
+    background-color: #dcdde1;
     padding: 60px 20px;
+    text-align: left;
+}
+
+main p {
+    margin-left: 40px;
+}
+main h2 {
     text-align: center;
 }
 
+.mainhome {
+    text-align: left ;
+}
 /*Homepagelinks*/
 
-.imagelinkcontainer {
+.linkcontainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /*AUTOFILLCOLUMNS,MINANDMAXOF250PIXELSREGARDLESSOFSCREENSIZE)*/
     gap: 20px;    /*SPACEBETWEENITEMS*/
     align-content: center;
+    cursor: pointer;
 }
 
-.imagelinkcontainer a {
+.linkcontainer a {
     background-color: #ffffff;
     padding: 30px 20px; /*ADDSTOBOTTOMANDL&R*/
     text-align: center;
@@ -105,20 +116,13 @@ main {
     max-width: 280px; /*KEEPSLAYOUTCONSISTENT*/
 }
 
-.imagelinkcontainer a:hover {
-    transform: translateY(-8px); /*MOVESITUP*/
+.linkcontainer a:hover {
+    transform: translateY(8px); /*MOVESITUP*/
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /*SHADOW/FLOTAPPEARANCE*/ /*COLOROFSHADOWSOFT*/
 }
 
-.imagelinkcontainer img {
-    width: 100%;
-    max-height: 180px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
 
-.imagelinkcontainer span {
+.linkcontainer span { 
     display: block;
     font-size: 22px;
     font-weight: 600;
@@ -127,7 +131,7 @@ main {
 }
 
 /*Aboutmepagelinks*/
-.am-imagelinkcontainer {
+.am-linkcontainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /*AUTOFILLCOLUMNS,MINANDMAXOF250PIXELSREGARDLESSOFSCREENSIZE)*/
     gap: 20px; 
@@ -135,7 +139,7 @@ main {
     align-content: center;
 }
 
-.am-imagelinkcontainer a {
+.am-linkcontainer a {
     background-color: #ffffff;
     padding: 30px 20px; /*ADDSTOBOTTOMANDL&R*/
     text-align: center;
@@ -146,20 +150,12 @@ main {
     max-width: 280px; /*KEEPSLAYOUTCONSISTENT*/
 }
 
-.am-imagelinkcontainer a:hover {
-    transform: translateY(-8px); /*MOVESITUP*/
+.am-linkcontainer a:hover {
+    transform: translateY(8px); /*MOVESITUP*/
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /*SHADOW/FLOTAPPEARANCE*/ /*COLOROFSHADOWSOFT*/
 }
 
-.am-imagelinkcontainer img {
-    width: 100%;
-    max-height: 180px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
-
-.am-imagelinkcontainer span {
+.am-linkcontainer span {
     display: block;
     font-size: 22px;
     font-weight: 600;
@@ -169,14 +165,14 @@ main {
 
 /*resumepagelinks*/
 
-.r-imagelinkcontainer {
+.r-linkcontainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /*AUTOFILLCOLUMNS,MINANDMAXOF250PIXELSREGARDLESSOFSCREENSIZE)*/
     gap: 20px;    /*SPACEBETWEENITEMS*/
     justify-items: center;
 }
 
-.r-imagelinkcontainer a {
+.r-linkcontainer a {
     background-color: #ffffff;
     padding: 30px 20px; /*ADDSTOBOTTOMANDL&R*/
     text-align: center;
@@ -187,20 +183,12 @@ main {
     max-width: 280px; /*KEEPSLAYOUTCONSISTENT*/
 }
 
-.r-imagelinkcontainer a:hover {
-    transform: translateY(-8px); /*MOVESITUP*/
+.r-linkcontainer a:hover {
+    transform: translateY(8px); /*MOVESITUP*/
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /*SHADOW/FLOTAPPEARANCE*/ /*COLOROFSHADOWSOFT*/
 }
 
-.r-imagelinkcontainer img {
-    width: 100%;
-    max-height: 180px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
-
-.r-imagelinkcontainer span {
+.r-linkcontainer span {
     display: block;
     font-size: 22px;
     font-weight: 600;
@@ -211,14 +199,14 @@ main {
 /*portfoliopagelinks*/
 
 
-.p-imagelinkcontainer {
+.p-linkcontainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /*AUTOFILLCOLUMNS,MINANDMAXOF250PIXELSREGARDLESSOFSCREENSIZE)*/
     gap: 20px;    /*SPACEBETWEENITEMS*/
     justify-items: center;
 }
 
-.p-imagelinkcontainer a {
+.p-linkcontainer a {
     background-color: #ffffff;
     padding: 30px 20px; /*ADDSTOBOTTOMANDL&R*/
     text-align: center;
@@ -229,20 +217,12 @@ main {
     max-width: 280px; /*KEEPSLAYOUTCONSISTENT*/
 }
 
-.p-imagelinkcontainer a:hover {
-    transform: translateY(-8px); /*MOVESITUP*/
+.p-linkcontainer a:hover {
+    transform: translateY(8px); /*MOVESITUP*/
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /*SHADOW/FLOTAPPEARANCE*/ /*COLOROFSHADOWSOFT*/
 }
 
-.p-imagelinkcontainer img {
-    width: 100%;
-    max-height: 180px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
-
-.p-imagelinkcontainer span {
+.p-linkcontainer span {
     display: block;
     font-size: 22px;
     font-weight: 600;
