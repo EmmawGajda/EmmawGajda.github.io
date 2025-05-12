@@ -40,6 +40,7 @@ figure.photo-credit figcaption {
     color: #666;
     margin-top: 0.5em;
     font-style: italic;
+    text-align: center;
 }
 
 body {
