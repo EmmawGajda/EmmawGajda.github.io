@@ -37,7 +37,7 @@ figure.photo-credit img {
 
 figure.photo-credit figcaption {
     font-size: 0.85em;
-    color: #666;
+    color: #18181a;
     margin-top: 0.5em;
     font-style: italic;
     text-align: center;
@@ -164,6 +164,7 @@ nav a:hover,
     margin: .65rem;
     width: 100%;
     height: 100%;
+    border-radius: 1px;
 }
 
 /* MAIN */
@@ -179,8 +180,7 @@ main h2 {
 }
 
 main h3 {
-    padding-left: 32rem;
-    padding-right: 20rem;
+    text-align: center;
     font-size: 1rem;
 }
 
@@ -212,7 +212,7 @@ main h3 {
 .r-linkcontainer,
 .p-linkcontainer {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     justify-items: center;
     align-content: center;
